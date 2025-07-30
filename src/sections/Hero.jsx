@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 const Hero = () => {
     return (
         <section id="home">
-            <div className="flex flex-col h-[88vh] justify-center">
+            <div className="flex flex-col min-h-[88vh] justify-center">
                 <div className="text-center">
                     <motion.h1
                         initial={{ opacity: 0, scale: 0.8 }}

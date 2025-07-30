@@ -35,12 +35,12 @@ const Skills = () => {
 
 
   return (
-    <section id="skills" className='bg-[#5ab1ff] pt-23 pb-14 w-full h-screen bg-fixed'>
+    <section id="skills" className='bg-[#5ab1ff] pt-23 pb-14 w-full min-h-screen bg-fixed'>
       <div className='text-center'>
         <h1 className=' text-black font-extralight text-5xl sm:text-6xl'>Skills</h1>
       </div>
 
-      <div className='flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-18 mt-2 font-semibold text-black'>
+      <div className='flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-18 mt-4 font-semibold text-black'>
         {categories.map((category, key) => {
           const isActive = activeCategory === category;
           return (
@@ -49,7 +49,7 @@ const Skills = () => {
         })}
 
       </div>
-      <div className='mt-2 bg-gray-500/90 w-[90%] h-[80%] mx-auto shadow-2xl rounded-2xl py-5 px-16 overflow-y-auto scrollbar scrollbar-thumb-white scrollbar-track-black/70'>
+      <div className='mt-4 bg-gray-500/90 w-[90%] max-h-[70vh] mx-auto shadow-2xl rounded-2xl pt-5 pb-10 px-16 overflow-y-auto scrollbar scrollbar-thumb-white scrollbar-track-black/70'>
 
         <div className="mt-4 grid grid-cols-1 lg:grid-cols-4 gap-6">
           {filteredskills.map((skill, key) => (

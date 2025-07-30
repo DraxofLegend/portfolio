@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 const About = () => {
 
     return (
-        <section id="about" className='h-[100vh] pt-30'>
-            <div className='bg-[#bfdbfe] h-[90%] w-[80%] mx-auto flex flex-col justify-center md:flex-row md:justify-start items-center px-11 rounded-2xl shadow-2xl'>
+        <section id="about" className='min-h-screen py-30'>
+            <div className='bg-[#bfdbfe] w-[80%] mx-auto flex flex-col justify-center md:flex-row md:justify-start items-center px-11 py-15 rounded-2xl shadow-2xl'>
                 <div className='flex-shrink-0'>
                     <img src={me} className='rounded-full lg:block lg:w-65 hidden'></img>
                 </div>
