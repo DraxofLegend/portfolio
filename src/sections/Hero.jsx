@@ -3,7 +3,7 @@ import { motion } from 'motion/react'
 
 const Hero = () => {
     return (
-        <section id="home" className="min-h-screen flex flex-col justify-between items-center px-4 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+        <section id="home" className="min-h-[100dvh] flex flex-col justify-between items-center px-4 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
             
             {/* Top section */}
             <div className="flex flex-col justify-center text-center mt-16 flex-grow">
