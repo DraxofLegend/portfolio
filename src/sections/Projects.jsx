@@ -42,7 +42,7 @@ const Projects = () => {
       <div className='text-center'>
         <h1 className="text-black font-extralight text-5xl lg:text-6xl pb-5">Featured Projects</h1>
       </div>
-      <div className="overflow-y-scroll scrollbar-thumb-white max-h-[75vh] px-5">
+      <div className="overflow-y-auto scrollbar-thumb-white max-h-[75vh] px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 h-full py-6">
 
           {projects.map((project, key) => (
