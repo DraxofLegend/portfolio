@@ -12,7 +12,7 @@ const Contact = () => {
         <MailIcon></MailIcon>
         <Twitter></Twitter>
         <Github></Github>
-        <Linkedin></Linkedin>
+        <a href="https://www.linkedin.com/in/sh-yoon-zk" target="_blank"><Linkedin></Linkedin></a>
         </div>
 
         <div>
