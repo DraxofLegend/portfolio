@@ -24,6 +24,15 @@ const Projects = () => {
       demoUrl: "https://drax-dragonball.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/dragonball-quiz.git"
 
+    }, 
+    {
+      id: 3,
+      title: "Netflix Clone",
+      description: "A responsive React app that mimics Netflix’s core functionality, allowing users to browse movies and add them to their favorites list.",
+      image: "/projects/netflix.png",
+      tags: ["HTML", "CSS", "REACT","API"],
+      demoUrl: "https://drax-netclone.netlify.app/",
+      githubUrl: "https://github.com/DraxofLegend/netflix-clone.git"
     },
     {
       id: 3,
@@ -33,16 +42,15 @@ const Projects = () => {
       tags: ["HTML", "CSS", "REACT"],
       demoUrl: "https://drax-fitnesspage.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/fitness-page.git"
-
     }
 
   ]
   return (
-    <section id="projects" className='min-h-screen bg-[#bfdbfe] pt-25 pb-14 px-10'>
+    <section id="projects" className='xl:h-[200vh]  bg-[#bfdbfe] pt-25 pb-14 px-10'>
       <div className='text-center'>
         <h1 className="text-black font-extralight text-5xl lg:text-6xl pb-5">Featured Projects</h1>
       </div>
-      <div className="overflow-y-auto scrollbar-thumb-white max-h-[75vh] px-5">
+      <div className=" overflow-auto  xl:overflow-visible scrollbar-thumb-white max-h-[75vh] px-5">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 h-full py-6">
 
           {projects.map((project, key) => (
@@ -63,7 +71,7 @@ const Projects = () => {
               </div>
 
 
-              <div className="px-6 pt-6 pb-4">
+              <div className="px-6 pt-6 pb-4 h-25">
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, key) => (
                     <span className="px-4 py-1 text-s font-medium rounded-full bg-blue-600/50" key={key}>{tag}</span>
