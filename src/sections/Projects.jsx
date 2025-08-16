@@ -24,25 +24,36 @@ const Projects = () => {
       demoUrl: "https://drax-dragonball.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/dragonball-quiz.git"
 
-    }, 
+    },
     {
       id: 3,
       title: "Netflix Clone",
       description: "A responsive React app that mimics Netflix’s core functionality, allowing users to browse movies and add them to their favorites list.",
       image: "/projects/netflix.png",
-      tags: ["HTML", "CSS", "REACT","API"],
+      tags: ["HTML", "CSS", "REACT", "API"],
       demoUrl: "https://drax-netclone.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/netflix-clone.git"
     },
     {
-      id: 3,
+      id: 4,
+      title: "E-commerce Landing Page",
+      description: "This project is a modern, responsive E-commerce landing page that showcases products and provides essential functionality for both customers and sellers.",
+      image: "/projects/shopping.png",
+      tags: ["HTML", "CSS", "REACT","MongoDB", "Express.js", "Node.js"],
+      demoUrl: "https://shopping-mern-v1.vercel.app/",
+      githubUrl: "https://github.com/DraxofLegend/shopping-mern"
+    },
+    {
+      id: 5,
       title: "Gym Landing Page",
       description: "A modern, responsive landing page designed for a fictional gym or fitness brand. This project helped me practice layout structuring, component-based UI design, and styling with pure CSS in a React environment.",
       image: "/projects/gym.png",
       tags: ["HTML", "CSS", "REACT"],
       demoUrl: "https://drax-fitnesspage.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/fitness-page.git"
-    }
+    },
+
+
 
   ]
   return (
@@ -62,7 +73,7 @@ const Projects = () => {
 
 
               <div className='pb-5 overflow-hidden'>
-                <img src={project.image} className="w-full h-full object-cover transition-transform duration-200 ease-in-out hover:scale-110" alt={project.title}></img>
+                <img src={project.image} className="w-full h-60 object-cover transition-transform duration-200 ease-in-out hover:scale-110" alt={project.title}></img>
               </div>
 
 
