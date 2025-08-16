@@ -7,6 +7,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "E-commerce Landing Page",
+      description: "This project is a modern, responsive E-commerce landing page that showcases products and provides essential functionality for both customers and sellers.",
+      image: "/projects/shopping.png",
+      tags: ["HTML", "CSS", "REACT", "MongoDB", "Express.js", "Node.js"],
+      demoUrl: "https://shopping-mern-v1.vercel.app/",
+      githubUrl: "https://github.com/DraxofLegend/shopping-mern"
+    },
+    {
+      id: 2,
       title: "Currency Converter",
       description: "A functional currency converter using real-time currency exchange API. This project enables me to understand API integration, state management, and user input handling in React.",
       image: "/projects/currency.png",
@@ -16,7 +25,7 @@ const Projects = () => {
 
     },
     {
-      id: 2,
+      id: 3,
       title: "Quiz Game",
       description: "A fun and interactive quiz game themed around the Dragon Ball universe. Built using React and powered by an external API, this project tested my skills in state management, conditional rendering, and working with dynamic data.",
       image: "/projects/dbz.png",
@@ -26,7 +35,7 @@ const Projects = () => {
 
     },
     {
-      id: 3,
+      id: 4,
       title: "Netflix Clone",
       description: "A responsive React app that mimics Netflix’s core functionality, allowing users to browse movies and add them to their favorites list.",
       image: "/projects/netflix.png",
@@ -34,15 +43,7 @@ const Projects = () => {
       demoUrl: "https://drax-netclone.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/netflix-clone.git"
     },
-    {
-      id: 4,
-      title: "E-commerce Landing Page",
-      description: "This project is a modern, responsive E-commerce landing page that showcases products and provides essential functionality for both customers and sellers.",
-      image: "/projects/shopping.png",
-      tags: ["HTML", "CSS", "REACT","MongoDB", "Express.js", "Node.js"],
-      demoUrl: "https://shopping-mern-v1.vercel.app/",
-      githubUrl: "https://github.com/DraxofLegend/shopping-mern"
-    },
+
     {
       id: 5,
       title: "Gym Landing Page",
@@ -82,7 +83,7 @@ const Projects = () => {
               </div>
 
 
-              <div className="px-6 pt-6 pb-4 h-25">
+              <div className="px-6 pt-6 pb-4 sm:h-30">
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, key) => (
                     <span className="px-4 py-1 text-s font-medium rounded-full bg-blue-600/50" key={key}>{tag}</span>
