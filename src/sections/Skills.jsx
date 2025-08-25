@@ -30,7 +30,7 @@ const Skills = () => {
     { name: "Clerk", level: 100, category: "TOOLS", image: "/icons/clerk.png" },
   ]
 
-  const categories = ["ALL", "BACKEND", "FRONTEND", "TOOLS"]
+  const categories = ["ALL", "FRONTEND", "BACKEND", "TOOLS"]
 
   const [activeCategory, setactiveCategory] = useState('ALL')
 
