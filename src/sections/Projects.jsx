@@ -10,46 +10,55 @@ const Projects = () => {
       title: "E-commerce Landing Page",
       description: "This project is a modern, responsive E-commerce landing page that showcases products and provides essential functionality for both customers and sellers.",
       image: "/projects/shopping.png",
-      tags: ["HTML", "CSS", "REACT", "MongoDB", "Express.js", "Node.js"],
+      tags: ["HTML", "CSS", "React", "MongoDB", "Express.js", "Node.js"],
       demoUrl: "https://shopping-mern-v1.vercel.app/",
       githubUrl: "https://github.com/DraxofLegend/shopping-mern"
     },
     {
       id: 2,
+      title: "Whatzzapp",
+      description: "The app allows users to sign up, log in, and send messages that update instantly across all connected devices. It includes user authentication, profile avatars, and a profanity filter to block banned words.",
+      image: "/projects/chatapp.jpg",
+      tags: ["React Native", "React", "NativeWind", "Firebase", "Firestore"],
+      demoUrl: "https://drax-whatzzapp-qr.netlify.app",
+      githubUrl: "https://github.com/DraxofLegend/whatzzapp-qr"
+    },
+    {
+      id: 3,
       title: "Currency Converter",
       description: "A functional currency converter using real-time currency exchange API. This project enables me to understand API integration, state management, and user input handling in React.",
       image: "/projects/currency.png",
-      tags: ["HTML", "CSS", "JS", "REACT", "API"],
+      tags: ["HTML", "CSS", "JS", "React", "API"],
       demoUrl: "https://drax-currencyconverter.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/currency-converter.git"
 
     },
     {
-      id: 3,
+      id: 4,
       title: "Quiz Game",
       description: "A fun and interactive quiz game themed around the Dragon Ball universe. Built using React and powered by an external API, this project tested my skills in state management, conditional rendering, and working with dynamic data.",
       image: "/projects/dbz.png",
-      tags: ["HTML", "CSS", "JS", "REACT", "API"],
+      tags: ["HTML", "CSS", "JS", "React", "API"],
       demoUrl: "https://drax-dragonball.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/dragonball-quiz.git"
 
     },
     {
-      id: 4,
+      id: 5,
       title: "Netflix Clone",
       description: "A responsive React app that mimics Netflix’s core functionality, allowing users to browse movies and add them to their favorites list.",
       image: "/projects/netflix.png",
-      tags: ["HTML", "CSS", "REACT", "API"],
+      tags: ["HTML", "CSS", "React", "API"],
       demoUrl: "https://drax-netclone.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/netflix-clone.git"
     },
 
     {
-      id: 5,
+      id: 6,
       title: "Gym Landing Page",
       description: "A modern, responsive landing page designed for a fictional gym or fitness brand. This project helped me practice layout structuring, component-based UI design, and styling with pure CSS in a React environment.",
       image: "/projects/gym.png",
-      tags: ["HTML", "CSS", "REACT"],
+      tags: ["HTML", "CSS", "React"],
       demoUrl: "https://drax-fitnesspage.netlify.app/",
       githubUrl: "https://github.com/DraxofLegend/fitness-page.git"
     },
