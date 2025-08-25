@@ -67,7 +67,7 @@ const Projects = () => {
 
   ]
   return (
-    <section id="projects" className='xl:h-[200vh]  bg-[#bfdbfe] pt-25 pb-14 px-10'>
+    <section id="projects" className='xl:h-[230vh]  bg-[#bfdbfe] pt-25 pb-14 px-10'>
       <div className='text-center'>
         <h1 className="text-black font-extralight text-5xl lg:text-6xl pb-5">Featured Projects</h1>
       </div>
