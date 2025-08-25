@@ -13,10 +13,13 @@ const Skills = () => {
     { name: "Tailwind", level: 95, category: "FRONTEND", image: "/icons/Tailwind.png" },
     { name: "JS", level: 80, category: "FRONTEND", image: "/icons/js.png" },
     { name: "React", level: 90, category: "FRONTEND", image: "/icons/atom.png" },
+    { name: "R.Native", level: 70, category: "FRONTEND", image: "/icons/native.png" },
 
     //Backend
     { name: "Node.js", level: 75, category: "BACKEND", image: "/icons/node-js.png" },
+    { name: "Next.js", level: 70, category: "BACKEND", image: "/icons/next.png" },
     { name: "Mongo", level: 60, category: "BACKEND", image: "/icons/mongo.png" },
+    { name: "Firebase", level: 70, category: "BACKEND", image: "/icons/firebase.png" },
 
     //Tools
     { name: "Github", level: 70, category: "TOOLS", image: "/icons/github.png" },
@@ -24,6 +27,7 @@ const Skills = () => {
     { name: "Vite", level: 100, category: "TOOLS", image: "/icons/Vite.png" },
     { name: "NPM", level: 100, category: "TOOLS", image: "/icons/programing.png" },
     { name: "VS Code", level: 100, category: "TOOLS", image: "/icons/VS.png" },
+    { name: "Clerk", level: 100, category: "TOOLS", image: "/icons/clerk.png" },
   ]
 
   const categories = ["ALL", "BACKEND", "FRONTEND", "TOOLS"]
