@@ -25,6 +25,16 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "GG Maps",
+      description: "A practical mapping and logistics tool that allows users to calculate the optimal route, the total fuel consumption and the total cost from a starting location to a destination",
+      image: "/projects/ggmaps.jpg",
+      tags: ["HTML", "CSS", "JS", "React", "Google Maps API"],
+      demoUrl: "https://maps-clone-two.vercel.app",
+      githubUrl: "https://github.com/DraxofLegend/maps-clone"
+
+    },
+    {
+      id: 4,
       title: "Currency Converter",
       description: "A functional currency converter using real-time currency exchange API. This project enables me to understand API integration, state management, and user input handling in React.",
       image: "/projects/currency.png",
@@ -34,7 +44,7 @@ const Projects = () => {
 
     },
     {
-      id: 4,
+      id: 5,
       title: "Quiz Game",
       description: "A fun and interactive quiz game themed around the Dragon Ball universe. Built using React and powered by an external API, this project tested my skills in state management, conditional rendering, and working with dynamic data.",
       image: "/projects/dbz.png",
@@ -44,7 +54,7 @@ const Projects = () => {
 
     },
     {
-      id: 5,
+      id: 6,
       title: "Netflix Clone",
       description: "A responsive React app that mimics Netflix’s core functionality, allowing users to browse movies and add them to their favorites list.",
       image: "/projects/netflix.png",
@@ -54,7 +64,7 @@ const Projects = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Gym Landing Page",
       description: "A modern, responsive landing page designed for a fictional gym or fitness brand. This project helped me practice layout structuring, component-based UI design, and styling with pure CSS in a React environment.",
       image: "/projects/gym.png",
@@ -67,7 +77,7 @@ const Projects = () => {
 
   ]
   return (
-    <section id="projects" className='xl:h-[230vh]  bg-[#bfdbfe] pt-25 pb-14 px-10'>
+    <section id="projects" className='xl:h-[320vh]  bg-[#bfdbfe] pt-25 pb-14 px-10'>
       <div className='text-center'>
         <h1 className="text-black font-extralight text-5xl lg:text-6xl pb-5">Featured Projects</h1>
       </div>
